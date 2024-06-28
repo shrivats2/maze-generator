@@ -5,7 +5,9 @@
 1. Clone the repository:
 
    ```sh
-   git clone <repository_url>
+   git clone https://github.com/shrivats2/maze-generator
+   ```
+   ```sh
    cd <repository_directory>
    ```
 
@@ -13,14 +15,18 @@
 
    ```sh
    npm install
-   # or
+   ```
+   or
+   ```sh
    yarn install
    ```
 
 3. Run the application:
-   ```sh
+  ```sh
    npm start
-   # or
+   ```
+   or
+   ```sh
    yarn start
    ```
 
