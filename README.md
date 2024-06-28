@@ -1,5 +1,7 @@
 # Maze Generator
+## Author
 
+Shrivats Krishna Shrivastav
 ## Instructions
 
 1. Clone the repository:
@@ -8,7 +10,7 @@
    git clone https://github.com/shrivats2/maze-generator
    ```
    ```sh
-   cd <repository_directory>
+   cd maze-generator
    ```
 
 2. Install dependencies:
@@ -20,8 +22,8 @@
    ```sh
    yarn install
    ```
-
 3. Run the application:
+  
   ```sh
    npm start
    ```
@@ -38,7 +40,3 @@ This project generates random mazes that are always solvable. The user can set t
 
 - React
 - TypeScript
-
-## Author
-
-Shrivats Krishna Shrivastav
