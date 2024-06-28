@@ -5,9 +5,91 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.wrapper{
+  padding: 14px;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  align-items: center;
+  background-color: rgb(223 223 223 / 76%);
+  border: 1px solid #68ffd1;
+  border-radius: 16px;
+  max-width: 300px;
+}
+
+button:active,
+button:hover {
+  outline: 0;
+}
+
+button:hover {
+  background-color: #FFFFFF;
+  border-color: rgba(0, 0, 0, 0.19);
+}
+
+.action-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number']{
+  width: 30px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.topWall {
+  border-top: 12px solid black;
+}
+
+.rightWall {
+  border-right: 12px solid black;
+}
+
+.bottomWall {
+  border-bottom: 12px solid black;
+}
+
+.leftWall {
+  border-left: 12px solid black;
+}
+
+#maze {
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+#maze td {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
 }
