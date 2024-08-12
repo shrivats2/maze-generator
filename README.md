@@ -1,7 +1,4 @@
 # Maze Generator
-## Author
-
-Shrivats Krishna Shrivastav
 ## Instructions
 
 1. Clone the repository:
